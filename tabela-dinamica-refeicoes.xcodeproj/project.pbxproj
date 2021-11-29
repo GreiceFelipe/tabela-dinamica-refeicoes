@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6A27502754EB3300A0DA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A274F2754EB3300A0DA06 /* AppDelegate.swift */; };
+		9A6A27522754EB3300A0DA06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A27512754EB3300A0DA06 /* SceneDelegate.swift */; };
+		9A6A27542754EB3300A0DA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A27532754EB3300A0DA06 /* ViewController.swift */; };
+		9A6A27572754EB3300A0DA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A27552754EB3300A0DA06 /* Main.storyboard */; };
+		9A6A27592754EB3900A0DA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A27582754EB3900A0DA06 /* Assets.xcassets */; };
+		9A6A275C2754EB3900A0DA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A275A2754EB3900A0DA06 /* LaunchScreen.storyboard */; };
+		9A6A27672754EB3A00A0DA06 /* tabela_dinamica_refeicoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A27662754EB3A00A0DA06 /* tabela_dinamica_refeicoesTests.swift */; };
+		9A6A27722754EB3A00A0DA06 /* tabela_dinamica_refeicoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A27712754EB3A00A0DA06 /* tabela_dinamica_refeicoesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6A27632754EB3A00A0DA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6A27442754EB3300A0DA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6A274B2754EB3300A0DA06;
+			remoteInfo = "tabela-dinamica-refeicoes";
+		};
+		9A6A276E2754EB3A00A0DA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6A27442754EB3300A0DA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6A274B2754EB3300A0DA06;
+			remoteInfo = "tabela-dinamica-refeicoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A6A274C2754EB3300A0DA06 /* tabela-dinamica-refeicoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabela-dinamica-refeicoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6A274F2754EB3300A0DA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A6A27512754EB3300A0DA06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A6A27532754EB3300A0DA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A6A27562754EB3300A0DA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A6A27582754EB3900A0DA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A6A275B2754EB3900A0DA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A6A275D2754EB3A00A0DA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6A27622754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabela-dinamica-refeicoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6A27662754EB3A00A0DA06 /* tabela_dinamica_refeicoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabela_dinamica_refeicoesTests.swift; sourceTree = "<group>"; };
+		9A6A27682754EB3A00A0DA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6A276D2754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabela-dinamica-refeicoesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6A27712754EB3A00A0DA06 /* tabela_dinamica_refeicoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabela_dinamica_refeicoesUITests.swift; sourceTree = "<group>"; };
+		9A6A27732754EB3A00A0DA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A6A27492754EB3300A0DA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A275F2754EB3A00A0DA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A276A2754EB3A00A0DA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6A27432754EB3300A0DA06 = {
+			isa = PBXGroup;
+			children = (
+				9A6A274E2754EB3300A0DA06 /* tabela-dinamica-refeicoes */,
+				9A6A27652754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests */,
+				9A6A27702754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests */,
+				9A6A274D2754EB3300A0DA06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A6A274D2754EB3300A0DA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A274C2754EB3300A0DA06 /* tabela-dinamica-refeicoes.app */,
+				9A6A27622754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests.xctest */,
+				9A6A276D2754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A6A274E2754EB3300A0DA06 /* tabela-dinamica-refeicoes */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A274F2754EB3300A0DA06 /* AppDelegate.swift */,
+				9A6A27512754EB3300A0DA06 /* SceneDelegate.swift */,
+				9A6A27532754EB3300A0DA06 /* ViewController.swift */,
+				9A6A27552754EB3300A0DA06 /* Main.storyboard */,
+				9A6A27582754EB3900A0DA06 /* Assets.xcassets */,
+				9A6A275A2754EB3900A0DA06 /* LaunchScreen.storyboard */,
+				9A6A275D2754EB3A00A0DA06 /* Info.plist */,
+			);
+			path = "tabela-dinamica-refeicoes";
+			sourceTree = "<group>";
+		};
+		9A6A27652754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A27662754EB3A00A0DA06 /* tabela_dinamica_refeicoesTests.swift */,
+				9A6A27682754EB3A00A0DA06 /* Info.plist */,
+			);
+			path = "tabela-dinamica-refeicoesTests";
+			sourceTree = "<group>";
+		};
+		9A6A27702754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A27712754EB3A00A0DA06 /* tabela_dinamica_refeicoesUITests.swift */,
+				9A6A27732754EB3A00A0DA06 /* Info.plist */,
+			);
+			path = "tabela-dinamica-refeicoesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A6A274B2754EB3300A0DA06 /* tabela-dinamica-refeicoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6A27762754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoes" */;
+			buildPhases = (
+				9A6A27482754EB3300A0DA06 /* Sources */,
+				9A6A27492754EB3300A0DA06 /* Frameworks */,
+				9A6A274A2754EB3300A0DA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabela-dinamica-refeicoes";
+			productName = "tabela-dinamica-refeicoes";
+			productReference = 9A6A274C2754EB3300A0DA06 /* tabela-dinamica-refeicoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A6A27612754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6A27792754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoesTests" */;
+			buildPhases = (
+				9A6A275E2754EB3A00A0DA06 /* Sources */,
+				9A6A275F2754EB3A00A0DA06 /* Frameworks */,
+				9A6A27602754EB3A00A0DA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6A27642754EB3A00A0DA06 /* PBXTargetDependency */,
+			);
+			name = "tabela-dinamica-refeicoesTests";
+			productName = "tabela-dinamica-refeicoesTests";
+			productReference = 9A6A27622754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A6A276C2754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6A277C2754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoesUITests" */;
+			buildPhases = (
+				9A6A27692754EB3A00A0DA06 /* Sources */,
+				9A6A276A2754EB3A00A0DA06 /* Frameworks */,
+				9A6A276B2754EB3A00A0DA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6A276F2754EB3A00A0DA06 /* PBXTargetDependency */,
+			);
+			name = "tabela-dinamica-refeicoesUITests";
+			productName = "tabela-dinamica-refeicoesUITests";
+			productReference = 9A6A276D2754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6A27442754EB3300A0DA06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9A6A274B2754EB3300A0DA06 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9A6A27612754EB3A00A0DA06 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9A6A274B2754EB3300A0DA06;
+					};
+					9A6A276C2754EB3A00A0DA06 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9A6A274B2754EB3300A0DA06;
+					};
+				};
+			};
+			buildConfigurationList = 9A6A27472754EB3300A0DA06 /* Build configuration list for PBXProject "tabela-dinamica-refeicoes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A6A27432754EB3300A0DA06;
+			productRefGroup = 9A6A274D2754EB3300A0DA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A6A274B2754EB3300A0DA06 /* tabela-dinamica-refeicoes */,
+				9A6A27612754EB3A00A0DA06 /* tabela-dinamica-refeicoesTests */,
+				9A6A276C2754EB3A00A0DA06 /* tabela-dinamica-refeicoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6A274A2754EB3300A0DA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6A275C2754EB3900A0DA06 /* LaunchScreen.storyboard in Resources */,
+				9A6A27592754EB3900A0DA06 /* Assets.xcassets in Resources */,
+				9A6A27572754EB3300A0DA06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A27602754EB3A00A0DA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A276B2754EB3A00A0DA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6A27482754EB3300A0DA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6A27542754EB3300A0DA06 /* ViewController.swift in Sources */,
+				9A6A27502754EB3300A0DA06 /* AppDelegate.swift in Sources */,
+				9A6A27522754EB3300A0DA06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A275E2754EB3A00A0DA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6A27672754EB3A00A0DA06 /* tabela_dinamica_refeicoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6A27692754EB3A00A0DA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6A27722754EB3A00A0DA06 /* tabela_dinamica_refeicoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A6A27642754EB3A00A0DA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6A274B2754EB3300A0DA06 /* tabela-dinamica-refeicoes */;
+			targetProxy = 9A6A27632754EB3A00A0DA06 /* PBXContainerItemProxy */;
+		};
+		9A6A276F2754EB3A00A0DA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6A274B2754EB3300A0DA06 /* tabela-dinamica-refeicoes */;
+			targetProxy = 9A6A276E2754EB3A00A0DA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6A27552754EB3300A0DA06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6A27562754EB3300A0DA06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A6A275A2754EB3900A0DA06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6A275B2754EB3900A0DA06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6A27742754EB3A00A0DA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A6A27752754EB3A00A0DA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6A27772754EB3A00A0DA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A6A27782754EB3A00A0DA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A6A277A2754EB3A00A0DA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabela-dinamica-refeicoes.app/tabela-dinamica-refeicoes";
+			};
+			name = Debug;
+		};
+		9A6A277B2754EB3A00A0DA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabela-dinamica-refeicoes.app/tabela-dinamica-refeicoes";
+			};
+			name = Release;
+		};
+		9A6A277D2754EB3A00A0DA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabela-dinamica-refeicoes";
+			};
+			name = Debug;
+		};
+		9A6A277E2754EB3A00A0DA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tabela-dinamica-refeicoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "greice-felipe.tabela-dinamica-refeicoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabela-dinamica-refeicoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6A27472754EB3300A0DA06 /* Build configuration list for PBXProject "tabela-dinamica-refeicoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6A27742754EB3A00A0DA06 /* Debug */,
+				9A6A27752754EB3A00A0DA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6A27762754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6A27772754EB3A00A0DA06 /* Debug */,
+				9A6A27782754EB3A00A0DA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6A27792754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6A277A2754EB3A00A0DA06 /* Debug */,
+				9A6A277B2754EB3A00A0DA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6A277C2754EB3A00A0DA06 /* Build configuration list for PBXNativeTarget "tabela-dinamica-refeicoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6A277D2754EB3A00A0DA06 /* Debug */,
+				9A6A277E2754EB3A00A0DA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A6A27442754EB3300A0DA06 /* Project object */;
+}
